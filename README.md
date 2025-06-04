@@ -1,42 +1,48 @@
 <div align="center">
-  <img src="https://img.shields.io/github/languages/count/keyvanarasteh/Project?style=flat-square&color=blueviolet" alt="Language Count">
-  <img src="https://img.shields.io/github/languages/top/keyvanarasteh/Project?style=flat-square&color=1e90ff" alt="Top Language">
-  <img src="https://img.shields.io/github/last-commit/keyvanarasteh/Project?style=flat-square&color=ff69b4" alt="Last Commit">
-  <img src="https://img.shields.io/github/license/keyvanarasteh/Project?style=flat-square&color=yellow" alt="License">
+  <img src="https://img.shields.io/github/languages/count/Togi999/metadata_extract?style=flat-square&color=blueviolet" alt="Language Count">
+  <img src="https://img.shields.io/github/languages/top/Togi999/metadata_extract?style=flat-square&color=1e90ff" alt="Top Language">
+  <img src="https://img.shields.io/github/last-commit/Togi999/metadata_extract?style=flat-square&color=ff69b4" alt="Last Commit">
+  <img src="https://img.shields.io/github/license/Togi999/metadata_extract?style=flat-square&color=yellow" alt="License">
   <img src="https://img.shields.io/badge/Status-Active-green?style=flat-square" alt="Status">
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions">
 </div>
 
-# Project Name
-*Proje Adı*
+# Project Name (EN)
 
-A brief, engaging description of your project.  
-*Projenizin kısa ve ilgi çekici bir açıklaması.*
+- Dijital Adli Bilişim - Metadata Extract 
+
+📸🎞️ Fotoğraf ve Video Dosyalarının Gizli Bilgilerini Ortaya Çıkar!
+
+Kapsamlı metadata analiz aracıyla hem görsel (JPEG, PNG, HEIC...) hem de medya dosyalarındaki (MP4, MP3, MOV...) tüm EXIF ve teknik bilgileri JSON, CSV ve TXT formatlarında dışa aktar!
+Ayrıca GPS verilerini otomatik olarak Google Maps bağlantılarına dönüştürür! 🌍📍
+Tek yapman gereken bir klasör veya dosya yolu vermek. Gerisini bu araç hallediyor! 🚀
+
+Kullanım alanları: Adli analiz, dijital güvenlik, OSINT ve teknik denetim süreçleri.
 
 ---
 
 ## Features / *Özellikler*
 
-- **Feature 1:** Description of the feature.  
-  *Özellik 1: Özelliğin açıklaması.*
-- **Feature 2:** Another cool thing it does.  
-  *Özellik 2: Yaptığı başka bir harika şey.*
-- **Feature 3:** One more for good measure.  
-  *Özellik 3: Ve bir tane daha.*
-- Add more as they develop.  
-  *Geliştikçe daha fazla ekleyin.*
+- **Feature 1:** 
+Çoklu format desteği: JPEG, PNG, HEIC, MP4, MOV, MP3 ve daha birçok dosya türünden metadata çıkarır.
+- **Feature 2:** 
+EXIF & GPS Çıkarımı: EXIF verilerini toplar, GPS koordinatlarını Google Maps bağlantılarına çevirir.
+- **Feature 3:** 
+Çoklu çıktı desteği: JSON, CSV, TXT ve sadece GPS verileri olarak dışa aktarım yapar.
+- **Feature 4:** 
+Klasör & Dosya Girdisi: Tek bir dosya veya tüm klasörleri yinelemeli olarak tarayabilir.
+- **Feature 5:**
+İlerleme Çubuğu: Çoklu dosya taramalarında gerçek zamanlı ilerleme göstergesi sunar.
+- **Feature 6:**
+Hata Yönetimi: Desteklenmeyen veya eksik metadata içeren dosyalarda çökmeksizin devam eder.
 
 ---
 
 ## Team / *Ekip*
 
-- **219*****031** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- **Another Member** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- Add more members as needed.  
-  *Gerektiğinde daha fazla üye ekleyin.*
-
+- **2320191005** - Name Surname: **Tolga Can Ünal**  
+  *Tolga Can Ünal: Proje Sahibi*
+  
 ---
 
 ## Roadmap / *Yol Haritası*
@@ -60,8 +66,8 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 1. **Clone the Repository / *Depoyu Klonlayın***:  
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
+   git clone https://github.com/Togi999/metadata_extract.git
+   cd metadata_extract
    ```
 
 2. **Set Up Virtual Environment / *Sanal Ortam Kurulumu*** (Recommended):  
@@ -70,10 +76,6 @@ See our plans in [ROADMAP.md](ROADMAP.md).
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. **Install Dependencies / *Bağımlılıkları Yükleyin***:  
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ---
 
@@ -83,8 +85,9 @@ Run the project:
 *Projeyi çalıştırın:*
 
 ```bash
-python main.py --input your_file.pcap --output results.txt
+python3 forensic_metadata_extract.py
 ```
+Çalıştırdıktan sonra hata çıktıları karşılığında kurulu olmayan paketleri kurunuz.
 
 **Steps**:  
 1. Prepare input data (*explain data needed*).  
@@ -124,9 +127,8 @@ Licensed under the [MIT License](LICENSE.md).
 ## Acknowledgements / *Teşekkürler* (Optional)
 
 Thanks to:  
-- Awesome Library: For enabling X.  
-- Inspiration Source.  
-- Special thanks to...  
+- Keyvan Arasteh (keyvan.arasteh@istinye.edu.tr)
+- Istinye University  
 
 *Teşekkürler: Harika kütüphaneler ve ilham kaynakları için.*
 
@@ -134,10 +136,10 @@ Thanks to:
 
 ## Contact / *İletişim* (Optional)
 
-Project Maintainer: [Your Name/Org Name] - [your.email@example.com]  
+Project Maintainer: [Keyvan Arasteh/Istinye University] - [keyvan.arasteh@istinye.edu.tr]  
 Found a bug? Open an issue.  
 
-*Proje Sorumlusu: [Adınız/Kuruluş Adınız] - [e-posta.adresiniz@ornek.com]. Hata bulursanız bir sorun bildirin.*
+*Proje Sorumlusu: [Keyvan Arasteh/Istinye University] - [keyvan.arasteh@istinye.edu.tr]. Hata bulursanız bir sorun bildirin.*
 
 ---
 
