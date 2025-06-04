@@ -2,12 +2,14 @@
 
 
 
-Bu proje, bir bilgisayar ağındaki yazılımcıları, ağ trafiği analiz aracı olan Wireshark kullanarak tespit etmeyi amaçlamaktadır. Temel hedef, yazılımcıların karakteristik ağ aktivitelerini (örneğin, Git/SSH kullanımı, IDE'ler ve kod editörlerinden kaynaklanan trafik, geliştirme/test sunucularına erişim, API test araçları trafiği, sanal makine/konteyner etkileşimleri ve özel port/protokol kullanımları) analiz ederek ayırt edici dijital izlerini belirlemektir. Proje kapsamında, bu özel trafik desenlerini etkin bir şekilde saptamak ve diğer ağ trafiğinden ayrıştırmak amacıyla hem canlı veri yakalama aşamasında (capture filters) hem de yakalanmış verilerin incelenmesi sırasında (display filters) kullanılacak kapsamlı ve özelleştirilmiş Wireshark filtreleri oluşturulacaktır. Bu filtreler, yazılımcılara özgü uygulamaların, servislerin ve davranış kalıplarının tespiti üzerine yoğunlaşarak, ağ üzerindeki yazılımcı varlığını ve faaliyetlerini yüksek doğrulukla belirlemeyi hedeflemektedir.
+Bu proje, dijital adli bilişim süreçlerinde kritik öneme sahip görsel ve işitsel kanıtların toplanması, kurtarılması ve detaylı analizi üzerine odaklanmaktadır. Temel hedefimiz, çeşitli dijital depolama ortamlarından (disk görüntüleri, hafıza kartları vb.) silinmiş veya erişilemeyen fotoğraf ve medya dosyalarını (JPEG, PNG, HEIC, MP4, MP3 gibi yaygın formatlar dahil) güvenli ve eksiksiz bir şekilde çıkararak (extraction), adli soruşturmalarda kullanılabilecek değerli üst verileri (metadata) elde etmektir. Proje, dosyaların EXIF ve MediaInfo gibi zengin metadata bilgilerini (çekim tarihi, kamera modeli, GPS koordinatları, dosya türü, boyut, süre vb.) otomatik olarak ayıklayacak, bu verileri JSON, CSV ve TXT formatlarında raporlayacak ve özellikle GPS verileri içeren görüntüler için Google Haritalar bağlantıları oluşturacaktır. Bu kapsamlı yaklaşım, dijital kanıtların bütünlüğünü koruyarak, analiz süreçlerini hızlandıracak ve adli soruşturmaların etkinliğini artıracaktır.
 
 
 
-**Görev:** 2025 yılı için [Developer Hunter, 'wireshark kullanarak yazilimcilari agda tesbit etmek (Yazilimci Avi)'] alanındaki en son ve en etkili ilk 10 tekniği/trendi derinlemesine araştır ve belirle.
 
+
+
+**Görev:** 2025 yılı için, dijital adli bilişimde metadata analizi ve medya dosyalarının adli delil olarak değerlendirilmesi alanındaki en güncel ve etkili ilk 10 tekniği/trendi derinlemesine araştırmak ve bu teknikleri, proje kapsamında geliştirilen araçla nasıl entegre edilebileceğini belirlemek. Bu çalışma; EXIF, MediaInfo, GPS verisi çıkarımı, veri bütünlüğü doğrulama, format uyumluluğu artırımı ve görsel/işitsel dosyaların otomatik sınıflandırılması gibi konuları da kapsayacaktır.
 
 
 **Ozellikler** 
