@@ -40,7 +40,7 @@ Hata Yönetimi: Desteklenmeyen veya eksik metadata içeren dosyalarda çökmeksi
 
 ## Team / *Ekip*
 
-- **2320191005** - Name Surname: **Tolga Can Ünal**  
+- **2320191005** - **Tolga Can Ünal**  
   *Tolga Can Ünal: Proje Sahibi*
   
 ---
